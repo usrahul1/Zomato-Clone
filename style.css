@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: #fff4ef;
     color: black;
 }
 
@@ -63,4 +63,20 @@ nav > .bar{
 
 .mid > h3 > span{
     font-weight: bold;
+}
+
+.form > input{
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.loc{
+    width: 10rem;
+    font-size: 1rem;
+}
+
+.food{
+    font-size: 1rem;
+    width: 35rem;
 }
