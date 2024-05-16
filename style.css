@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #fff4ef;
+    background-color: #fff;
     color: black;
 }
 
@@ -133,3 +133,104 @@ nav > .bar{
     font-size: larger;
     font-weight: 300;
 }
+
+.tot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15%;
+}
+
+.textcol > h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.textcolin{
+    display: flex;
+    gap: 4rem;
+}
+
+.textcolin > p{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.right{
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.collections img{
+    width: 16rem;
+    height: 16rem;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.images{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.pockettext, .biryanitext, .luxurytext, .placestext{
+    color: #fff;
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 20%;
+    left: 2.5%;
+}
+
+.localities > h3{
+    margin-top: 3rem;
+    font-size: 2.5rem;
+    font-weight: 350;
+}
+
+.localities h3 span{
+    font-weight: 450;
+}
+
+.buttons{
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.buttons h3{
+    font-size: 1.7rem;
+    font-weight: 350;
+    margin-top: 0.5rem;
+}
+
+.buttons h3, .buttons h4{
+    margin-left: 0.5rem;
+}
+
+.buttons h4{
+    font-weight: 325;
+}
+
+.buttons div{
+    border: 2px solid #ebebea;
+    border-radius: 20px;
+    height: 5rem;
+    width: 20rem;
+}
+
+.buttonsarrow{
+    position: relative;
+    left: 90%;
+    bottom: 40%;
+}
+
+.zapp{
+    background-color: #fffbf7;
+}
+
