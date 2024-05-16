@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./codejs.js"></script>
     <script src="https://kit.fontawesome.com/369e2205cf.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="./imgs/icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -138,6 +139,104 @@
             <div class="phnum">
                 <input type="tel" placeholder="Phone Number" required>                
             </div>
+        </div>
+    </div>
+    <div class="opts">
+        <h3>Explore options near me</h3>
+        <div class="first">
+            <button onclick="myFunction('cuisineopts')" >Popular cuisines near me</button>
+            <div class="cuisines hide" id="cuisineopts">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis natus sit unde similique iusto labore, officia saepe quo, facilis, facere ab. Animi aliquid eveniet porro earum harum, perspiciatis suscipit asperiores?</p>
+            </div>
+        </div>
+        <div>
+            <button onclick="myFunction('restaurant')">Popular restaurant types near me</button>
+            <div class="rest hide" id="restaurant">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius ad libero hic magni debitis repudiandae iste numquam quis dicta sit est ut, reprehenderit voluptates? Distinctio voluptate accusantium itaque excepturi voluptas.</p>
+            </div>
+        </div>
+        <div>
+            <button onclick="myFunction('citiesopt')">Cities We Deliver To</button>
+            <div class="cities hide" id="citiesopt">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ex minus. Architecto et inventore repellat itaque rem mollitia sit esse ab dolorem, quaerat voluptate! Iure similique impedit assumenda enim ipsam!</p>
+            </div>
+        </div>
+    </div>
+    <div class="ending">
+        <div class="endtop">
+            <img src="./imgs/zomatoend.avif" class="logoend" />
+            <div class="country">
+                <button onclick="myFunction('countrylist')" class="count">India</button>
+                <div class="listcount hide" id="countrylist">
+                    <a href="#" class="country">India</a>
+                    <a href="#" class="country">UAE</a>
+                </div>
+            </div>
+            <div class="langsend">
+                <button onclick="myFunction('langlist')" class="count">English</button>
+                <div class="listlang hide" id="langlist">
+                    <a href="#" class="lang">Hindi</a>
+                    <a href="#" class="country">English</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="abt">
+                <h3>ABOUT ZOMATO</h3>
+                <div class="cont">
+                    <p>Who We Are</p>
+                    <p>Blog</p>
+                    <p>Work With Us</p>
+                    <p>Investor Relations</p>
+                    <p>Report Fraud</p>
+                    <p>Press Kit</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+            <div class="verse">
+                <h3>ZOMAVERSE</h3>
+                <div class="cont">
+                    <p>Zomato</p>
+                    <p>Blinkit</p>
+                    <p>Feeding India</p>
+                    <p>Hyperpure</p>
+                    <p>Zomaland</p>
+                </div>
+            </div>
+            <div class="forrest">
+                <h3>FOR RESTAURANTS</h3>
+                <div class="cont">
+                    <p>Partner With Us</p>
+                    <p>Apps For you</p>
+                </div>
+            </div>
+            <div class="learn">
+                <h3>LEARN MORE</h3>
+                <div class="cont">
+                    <p>Privacy</p>
+                    <p>Security</p>
+                    <p>Terms</p>
+                    <p>Sitemap</p>
+                </div>
+            </div>
+            <div class="socialslink">
+                <h3>Social Links</h3>
+                <div class="cont">
+                    <div class="link">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <img src="./imgs/appstore" class="appstore links">
+                    <img src="./imgs/googleplay.webp" class="playstore links">
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <hr>
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
         </div>
     </div>
 </body>
