@@ -124,20 +124,37 @@
         </div>
     </div>
     <div class="zapp">
-        <h3>Get the Zomato App</h3>
-        <p>We will send you a link, open it on your phone to download the app</p>
-        <div class="buttonszapp">
-            <form>
-                <input type="radio" id="email" name="zapps" checked value="mail">
-                <label for="email">Email</label>
-                <input type="radio" id="num" name="zapps" value="phone">
-                <label for="num">Phone Number</label>
-            </form>
-            <div class="email">
-                <input type="email" placeholder="Email" required>
+        <div class="piczapp">
+            <img src="./imgs/phone" class="piczapp"/>
+        </div>
+        <div class="totzapp">
+            <div class="textzapp">
+                <h3>Get the Zomato App</h3>
+                <p>We will send you a link, open it on your phone to download <br> the app</p>
             </div>
-            <div class="phnum">
-                <input type="tel" placeholder="Phone Number" required>                
+            <div class="buttonszapp">
+                <form>
+                    <input type="radio" name="zapps" value="mail" id="radio1" checked>
+                    <label for="email">Email</label>
+                    <input type="radio" name="zapps" value="phone" id="radio2">
+                    <label for="num">Phone Number</label>
+                </form>
+                <div class="remaining">
+                    <div class="email">
+                        <input type="email" id="zappmail" class="zappmails" placeholder="Email" required>
+                    </div>
+                    <div class="phnum">
+                        <input type="tel" id="zappnum" class="zappnums hide" placeholder="Phone Number" required>                
+                    </div>
+                    <button type="submit" class="zappsub">Share App Link</button>
+                </div>
+            </div>
+            <div class="download">
+                <h3>Download app from</h3>
+                <div class="imgsdn">
+                    <img src="./imgs/appstore" />
+                    <img src="./imgs/googleplay.webp" />
+                </div>
             </div>
         </div>
     </div>
@@ -165,18 +182,20 @@
     <div class="ending">
         <div class="endtop">
             <img src="./imgs/zomatoend.avif" class="logoend" />
-            <div class="country">
-                <button onclick="myFunction('countrylist')" class="count">India</button>
-                <div class="listcount hide" id="countrylist">
-                    <a href="#" class="country">India</a>
-                    <a href="#" class="country">UAE</a>
+            <div class="contandlang">
+                <div class="country">
+                    <button onclick="myFunction('countrylist')" class="count">India <i class="fa-solid fa-angle-down"></i></button>
+                    <div class="listcount hide" id="countrylist">
+                        <a href="#" class="country">India</a>
+                        <a href="#" class="country">UAE</a>
+                    </div>
                 </div>
-            </div>
-            <div class="langsend">
-                <button onclick="myFunction('langlist')" class="count">English</button>
-                <div class="listlang hide" id="langlist">
-                    <a href="#" class="lang">Hindi</a>
-                    <a href="#" class="country">English</a>
+                <div class="langsend">
+                    <button onclick="myFunction('langlist')" class="count">English <i class="fa-solid fa-angle-down"></i></button>
+                    <div class="listlang hide" id="langlist">
+                        <a href="#" class="lang">Hindi</a>
+                        <a href="#" class="country">English</a>
+                    </div>
                 </div>
             </div>
         </div>
